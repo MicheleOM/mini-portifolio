@@ -1,5 +1,5 @@
 body{
-    background-image: url(../IMAGENS/fundo.jpg);
+    background-image: url(../imagens/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,10 +12,6 @@ body{
     align-items: center;
     min-height: 100vh;
     padding: 30px;
-
-    flex-direction: column;
-
-    position: relative;
 }
 
 .cartao{
@@ -60,7 +56,7 @@ body{
 }
 
 .cartao .abas .aba{
-    width: 500%;
+    width: 50%;
     display: flex;
     justify-content: center;
     padding: 10px 0;
@@ -86,7 +82,7 @@ body{
 }
 
 .informacoes-abas .informacao{
-    min-height: 250px;
+    min-height: 260px;
     padding: 15px;
     display: none;
 }
@@ -118,7 +114,7 @@ body{
     gap: 20px;
     align-items: center;
     max-height: 180px;
-    
+    overflow-y: auto;    
 }
 
 .redes-sociais li a{
